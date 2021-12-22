@@ -1,0 +1,32 @@
+.home__welcome {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.home__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* create a blurred background */
+    background: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
