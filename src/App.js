@@ -10,6 +10,7 @@ import About from "./Pages/About/About";
 import Orders from "./Pages/Orders/Orders";
 import Comm from "./Pages/Community/Comm";
 import Services from "./Pages/Services/Services";
+import Footer from "./Components/Footer/Footer";
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='/community' element={<Comm />} />
         <Route path='/services' element={<Services />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
