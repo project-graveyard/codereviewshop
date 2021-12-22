@@ -12,7 +12,7 @@
     font-weight: bold;
 }
 
-.footer__contact {
+.footer__info {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -21,6 +21,10 @@
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
+}
+
+.footer__contact {
+    width: 100%;
 }
 
 .footer__social {
