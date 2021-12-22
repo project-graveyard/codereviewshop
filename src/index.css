@@ -1,3 +1,8 @@
 * {
   margin: 0;
 }
+
+/* Hide scroll bars */
+::-webkit-scrollbar {
+  display: none;
+}
