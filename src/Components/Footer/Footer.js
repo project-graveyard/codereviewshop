@@ -9,8 +9,8 @@ function Footer() {
         <p>&copy; {new Date().getFullYear()} CodeReviewShop</p>
       </div>
 
+      <div className="footer__info">
       <div className="footer__contact">
-      <div>
         <h3>Contact Us</h3>
         <p><i className="bi bi-telephone-fill"></i> +233 50 4429 219</p>
         <p><i className="bi bi-envelope-fill"></i> codereviewshop@gmail.com</p>
