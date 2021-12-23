@@ -15,7 +15,7 @@ function Home() {
             services. We have a variety of services to choose from.
           </p>
           <Link to="/services">
-            <button className="btn btn-primary">Book Now</button>
+            <button type="button" className="btn btn-primary">Book Now</button>
           </Link>
         </div>
       </div>
