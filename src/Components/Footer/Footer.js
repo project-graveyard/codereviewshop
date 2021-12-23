@@ -16,16 +16,16 @@ function Footer() {
         <p><i className="bi bi-envelope-fill"></i> codereviewshop@gmail.com</p>
       </div>
         <div className="footer__social">
-          <a href="https://www.linkedin.com/in/davesaah/">
+          <a href="https://www.linkedin.com/in/davesaah/" rel="noreferrer" target='_blank'>
             <i className="bi bi-linkedin" style={{ color: "blue" }}></i>
           </a>
-          <a href="mailto:saahdavid17@gmail.com">
+          <a href="mailto:codereviewshop@gmail.com" rel="noreferrer" target='_blank'>
             <i className="bi bi-envelope" style={{ color: "red" }}></i>
           </a>
-          <a href="https://github.com/DaveSaah">
+          <a href="https://github.com/DaveSaah" rel="noreferrer" target='_blank'>
             <i className="bi bi-github" style={{ color: "black" }}></i>
           </a>
-          <a href="https://twiiter.com/dave_saah">
+          <a href="https://twiiter.com/dave_saah" rel="noreferrer" target='_blank'>
             <i className="bi bi-twitter" style={{ color: "DeepSkyBlue" }}></i>
           </a>
       </div>
