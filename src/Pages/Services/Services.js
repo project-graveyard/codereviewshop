@@ -47,9 +47,9 @@ function Services() {
                   <ul className="list-unstyled mt-3 mb-4">
                     <li>{service.details}</li>
                   </ul>
-                  <button type="button" className="btn btn-primary">
+                  <a href='https://calendly.com/codereviewshop/book' className="btn btn-primary">
                     Book Now
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
