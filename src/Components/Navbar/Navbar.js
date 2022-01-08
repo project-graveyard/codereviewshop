@@ -23,12 +23,6 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/orders" className="nav-link text-white">
-                <i className="bi d-block mx-auto mb-1 bi bi-table navbar__icon"></i>
-                Orders
-              </Link>
-            </li>
-            <li>
               <Link to="/services" className="nav-link text-white">
                 <i className="bi d-block mx-auto mb-1 bi bi-cart-fill navbar__icon"></i>
                 Services
