@@ -33,7 +33,7 @@ function Comm() {
         link:
       </h3>
       <a
-        href="https://coding-to-learn.slack.com/signin"
+        href="https://coding-to-learn.slack.com/"
         target="_blank"
         rel="noreferrer"
       >
