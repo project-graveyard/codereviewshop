@@ -1,4 +1,4 @@
-.home__welcome {
+.home {
     position: relative;
     text-align: center;
     color: white;
@@ -11,8 +11,8 @@
     transform: translate(-50%, -50%);
     /* create a blurred background */
     background: rgba(0, 0, 0, 0.5);
-    width: 80%;
-    height: 50%;
+    width: 90%;
+    height: 90%;
     text-align: center;
     display: flex;
     flex-direction: column;
