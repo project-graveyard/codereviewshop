@@ -9,12 +9,12 @@ const service_list = [
   },
   {
     title: "One-on-one tutoring",
-    price: "15",
+    price: "20",
     details: "Details",
   },
   {
     title: "Code walkthrough & assistance",
-    price: "15",
+    price: "20",
     details: "Details",
   },
   {
