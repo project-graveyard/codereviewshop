@@ -25,7 +25,7 @@ function Footer() {
           <a href="https://github.com/DaveSaah" rel="noreferrer" target='_blank'>
             <i className="bi bi-github" style={{ color: "black" }}></i>
           </a>
-          <a href="https://twiiter.com/dave_saah" rel="noreferrer" target='_blank'>
+          <a href="https://twitter.com/dave_saah" rel="noreferrer" target='_blank'>
             <i className="bi bi-twitter" style={{ color: "DeepSkyBlue" }}></i>
           </a>
       </div>
