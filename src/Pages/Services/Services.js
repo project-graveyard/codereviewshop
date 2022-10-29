@@ -10,17 +10,14 @@ const service_list = [
   {
     title: "One-on-one tutoring",
     price: "20",
-    details: "Details",
   },
   {
     title: "Code walkthrough & assistance",
     price: "20",
-    details: "Details",
   },
   {
     title: "IT support & consultation",
     price: "*",
-    details: "Details",
   },
 ];
 
