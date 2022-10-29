@@ -12,7 +12,7 @@ function Navbar() {
             className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none"
             exact
           >
-            <h3 className="display-6">Welcome To Code Review Shop</h3>
+            <h3 className="display-6">Code Review Shop</h3>
           </Link>
 
         </div>
