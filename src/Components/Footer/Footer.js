@@ -12,7 +12,6 @@ function Footer() {
       <div className="footer__info">
         <div className="footer__contact">
           <h3>Contact Us</h3>
-          <i className="bi bi-whatsapp" style={{ color: "green" }}></i> <i className="bi bi-signal" style={{ color: "#3452eb" }}></i> +233 50 4429 219 <br/>
           <a href="mailto:codereviewshop@gmail.com" rel="noreferrer" target='_blank'>
             <i className="bi bi-envelope-fill" style={{ color: "red" }}></i> codereviewshop@gmail.com
           </a>
