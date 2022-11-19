@@ -1,3 +1,7 @@
-.services__data {
-    margin: 15px;
+.services__content {
+    margin-bottom: 15px;
+}
+
+.services_msg {
+    font-size: 1.2rem;
 }
