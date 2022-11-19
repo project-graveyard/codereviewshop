@@ -30,3 +30,17 @@
     font-size: 20px;
     border-radius: 10px;
 }
+
+
+/* For screen displays */
+@media only screen and (max-width: 696px) {
+    html,
+    body {
+      width: auto;
+    }
+
+    .home__text {
+        width: 100%;
+        height: 100%;
+    }
+  }
