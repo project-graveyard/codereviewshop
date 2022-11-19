@@ -14,7 +14,31 @@ function Navbar() {
           >
             <h3 className="display-6">Code Review Shop</h3>
           </Link>
-
+          <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small text-center">
+            <li>
+              <Link to="/" className="nav-link text-white" exact>
+                <i className="bi d-block mx-auto mb-1 bi bi-house-fill navbar__icon"></i>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/services" className="nav-link text-white">
+                <i className="bi d-block mx-auto mb-1 bi bi-cart-fill navbar__icon"></i>
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="nav-link text-white">
+                <i className="bi d-block mx-auto mb-1 bi bi-info-circle navbar__icon"></i>
+                About Us
+              </Link>
+            </li>
+            <li>
+              <a href="https://davesaah.hashnode.dev" className="nav-link text-white">
+              <i class="bi d-block mx-auto mb-1 bi bi-pencil-square navbar__icon"></i>Blog
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
