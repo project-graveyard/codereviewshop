@@ -42,8 +42,8 @@ function Services() {
                   <h4 className="my-0 fw-normal">{service.title}</h4>
                 </div>
                 <div className="card-body">
-                <h1 className="card-title pricing-card-title h1">
-                <small className="text-muted fw-dark" style={{ "font-size": "15px" }}>{service.currency}</small>
+                  <h1 className="card-title pricing-card-title h1">
+                    <small className="text-muted fw-dark" style={{ "font-size": "15px" }}>{service.currency}</small>
                     {service.price}
                   </h1>
                   <a href='https://calendly.com/codereviewshop/book' className="btn btn-primary text-white">
