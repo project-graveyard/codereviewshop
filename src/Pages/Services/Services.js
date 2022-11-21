@@ -5,18 +5,22 @@ const service_list = [
   {
     title: "Code review & feedback",
     price: "Free",
+    currency: "",
   },
   {
     title: "One-on-one tutoring",
-    price: "25",
+    price: "20",
+    currency: "GH₵",
   },
   {
     title: "Code walkthrough & assistance",
-    price: "25",
+    price: "20",
+    currency: "GH₵",
   },
   {
     title: "IT support & consultation",
     price: "*",
+    currency: "GH₵",
   },
 ];
 
@@ -38,13 +42,10 @@ function Services() {
                   <h4 className="my-0 fw-normal">{service.title}</h4>
                 </div>
                 <div className="card-body">
-                  <h1 className="card-title pricing-card-title">
+                <h1 className="card-title pricing-card-title h1">
+                <small className="text-muted fw-dark" style={{ "font-size": "15px" }}>{service.currency}</small>
                     {service.price}
-                    <small className="text-muted fw-light">/hr</small>
                   </h1>
-                  <ul className="list-unstyled mt-3 mb-4">
-                    <li>{service.details}</li>
-                  </ul>
                   <a href='https://calendly.com/codereviewshop/book' className="btn btn-primary text-white">
                     Book
                   </a>
@@ -58,9 +59,11 @@ function Services() {
       <div className="service__msg alert alert-secondary" role="alert">
         <h4 className="alert-heading">Note:</h4><hr />
         <ul>
-          <li>All prices are in cedis.</li>
-          <li>Payment options include: <b>mobile money</b> & <b>in-person payment.</b></li>
-          <li>Prices listed on this page are for the 1st hour. Consequent hours are at a rate of ₵20 <span className="text-muted">/hr</span>.</li>
+          <li>Payment option: <b>mobile money</b></li>
+          <li>Prices are per session.</li>
+          <li>Each session is a 45-minute online call.</li>
+          <li>Payments should be made before a booked session is due.</li>
+          <li>In the likely case where your problems are not solved, your money will be refunded.</li>
         </ul>
       </div>
     </div>
