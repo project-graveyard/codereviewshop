@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import homeImg from "../../Assets/images/homeImg.jpg";
+import homeImg from "../../Assets/images/logo.png";
 import { Link } from "react-router-dom";
 
 function Home() {
