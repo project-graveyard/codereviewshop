@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import logo from "../../Assets/images/Code review logo.png"
 
 function Navbar() {
   return (
@@ -11,7 +12,7 @@ function Navbar() {
             to="/"
             className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none"
             exact
-          >
+          ><img src={logo} alt="logo" className="nav__img"/>
             <h3 className="display-6">Code Review Shop</h3>
           </Link>
           <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small text-center">
