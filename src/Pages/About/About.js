@@ -6,6 +6,7 @@ function About() {
   return (
     <div className="about">
       <div className="about__content">
+        <h1><span>CodeReviewShop</span><small className="text-muted fw-normal fst-italic"> ~ Better software is built together</small></h1>
         <h2 className="display-4 fw-normal p-2">What We Do</h2>
         <p className="about__text">
           We review code for school projects and provide feedback for improvements.
