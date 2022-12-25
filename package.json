@@ -9,8 +9,6 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.1.3",
     "bootstrap-icons": "^1.7.2",
-    "firebase": "^9.5.0",
-    "firebase-cli": "^1.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.2.1",
