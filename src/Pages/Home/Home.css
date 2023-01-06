@@ -40,4 +40,8 @@
   body {
     width: auto;
   }
+
+  .home__content {
+    min-height: 550px;
+  }
 }
