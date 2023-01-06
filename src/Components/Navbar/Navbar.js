@@ -35,7 +35,7 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <a href="https://davesaah.hashnode.dev" className="nav-link text-white">
+              <a href="https://codereviewshop.web.app" className="nav-link text-white">
               <i class="bi d-block mx-auto mb-1 bi bi-pencil-square navbar__icon"></i>Blog
               </a>
             </li>
