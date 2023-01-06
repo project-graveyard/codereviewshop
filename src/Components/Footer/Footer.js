@@ -20,7 +20,7 @@ function Footer() {
           <a href="https://www.linkedin.com/in/davesaah/" rel="noreferrer" target='_blank'>
             <i className="bi bi-linkedin" style={{ color: "blue" }}></i>
           </a>
-          <a href="https://github.com/DaveSaah" rel="noreferrer" target='_blank'>
+          <a href="https://github.com/CodeReviewShop" rel="noreferrer" target='_blank'>
             <i className="bi bi-github" style={{ color: "black" }}></i>
           </a>
           <a href="https://twitter.com/dave_saah" rel="noreferrer" target='_blank'>
