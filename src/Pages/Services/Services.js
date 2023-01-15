@@ -34,7 +34,7 @@ function Services() {
                   {service.price}
                   <small className="text-muted fw-light">/hr</small>
                 </h3>
-                <a href='https://calendly.com/codereviewshop/book' target="blank" className="btn btn-primary text-white">
+                <a href='https://calendly.com/codereviewshop/book' target="_blank" rel="noreferrer" className="btn btn-primary text-white">
                   Book
                 </a>
               </div>
@@ -52,6 +52,7 @@ function Services() {
           <li>For one-on-one tutoring sessions, send us an email: codereviewshop@gmail.com</li>
         </ul>
       </div>
+
       {/* <div className="alert alert-secondary" role="alert">
         <h4 className="alert-heading">Charges Spectrum</h4><hr />
         <table cellPadding={5}>
@@ -69,6 +70,7 @@ function Services() {
           </tr>
         </table>
       </div> */}
+
     </div >
   );
 }

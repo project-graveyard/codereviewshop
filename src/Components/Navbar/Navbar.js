@@ -12,7 +12,7 @@ function Navbar() {
             to="/"
             className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none"
             exact
-          ><img src={logo} alt="logo" className="nav__img"/>
+          ><img src={logo} alt="logo" className="nav__img" />
             <h3 className="display-6">Code Review Shop</h3>
           </Link>
           <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small text-center">
@@ -35,8 +35,8 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <a href="https://codereviewblog.web.app" className="nav-link text-white">
-              <i class="bi d-block mx-auto mb-1 bi bi-pencil-square navbar__icon"></i>Blog
+              <a href="https://codereviewblog.web.app" target="_blank" className="nav-link text-white" rel="noreferrer">
+                <i class="bi d-block mx-auto mb-1 bi bi-pencil-square navbar__icon"></i>Blog
               </a>
             </li>
           </ul>
