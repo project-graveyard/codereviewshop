@@ -20,9 +20,6 @@ function About() {
         <p className="about__text">
           CodeReviewShop is available for consultations on which technologies to use for your projects.
         </p>
-        <p className="about__text">
-          Additionally, we provide assistance for setting up your device for programming.
-        </p>
         <h2 className="display-4 fw-normal p-2">What We Don't Do</h2>
         <p className="about__text">
           We do not do assignments for students.
