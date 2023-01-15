@@ -15,12 +15,11 @@ lint:
     - gitleaks@8.15.2
 runtimes:
   enabled:
-    - go@1.18.3
     - node@18.12.1
 actions:
   disabled:
     - trunk-announce
-    - trunk-check-pre-push
-    - trunk-fmt-pre-commit
   enabled:
     - trunk-upgrade-available
+    - trunk-check-pre-push
+    - trunk-fmt-pre-commit
