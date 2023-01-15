@@ -34,7 +34,7 @@ function Services() {
                   {service.price}
                   <small className="text-muted fw-light">/hr</small>
                 </h3>
-                <a href='https://calendly.com/codereviewshop/book' className="btn btn-primary text-white">
+                <a href='https://calendly.com/codereviewshop/book' target="blank" className="btn btn-primary text-white">
                   Book
                 </a>
               </div>
