@@ -16,10 +16,11 @@ const service_list = [
 function Services() {
   return (
     <div className="container">
-
       <div className="text-center p-3 pb-md-4 mx-auto">
         <h1 className="display-4 fw-normal">Services & Pricing</h1>
-        <p className="fs-5 text-muted">Choose a service and a plan that works best for you</p>
+        <p className="fs-5 text-muted">
+          Choose a service and a plan that works best for you
+        </p>
       </div>
 
       <div className="row row-cols-md-2 mb-2 text-center">
@@ -32,9 +33,14 @@ function Services() {
               <div className="card-body">
                 <h3 className="card-title pricing-card-title h3">
                   {service.price}
-                  <small className="text-muted fw-light">/hr</small>
+                  <small className="text-muted fw-light">/sess</small>
                 </h3>
-                <a href='https://calendly.com/codereviewshop/book' target="_blank" rel="noreferrer" className="btn btn-primary text-white">
+                <a
+                  href="https://calendly.com/codereviewshop/book"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary text-white"
+                >
                   Book
                 </a>
               </div>
@@ -44,12 +50,21 @@ function Services() {
       </div>
 
       <div className="service__msg alert alert-secondary" role="alert">
-        <h4 className="alert-heading">Note:</h4><hr />
+        <h4 className="alert-heading">Note:</h4>
+        <hr />
         <ul>
-          <li>Payment options: <b>mobile money</b> or <b>cash</b>.</li>
+          <li>
+            Payment options: <b>mobile money</b> or <b>cash</b>.
+          </li>
           <li>Payments should be made before a booked session is due.</li>
-          <li>In the unlikely case where your problems are not solved, your money will be refunded.</li>
-          <li>For one-on-one tutoring sessions, send us an email: codereviewshop@gmail.com</li>
+          <li>
+            In the unlikely case where your problems are not solved, your money
+            will be refunded.
+          </li>
+          <li>
+            For one-on-one tutoring sessions, send us an email:
+            codereviewshop@gmail.com
+          </li>
         </ul>
       </div>
 
@@ -70,8 +85,7 @@ function Services() {
           </tr>
         </table>
       </div> */}
-
-    </div >
+    </div>
   );
 }
 
