@@ -10,4 +10,17 @@ const curDate = ref(new Date().getFullYear())
   </div>
 </template>
 
-<style></style>
+<style>
+.footer {
+  background-color: #c2bdbd;
+  height: max-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 15px;
+}
+</style>
