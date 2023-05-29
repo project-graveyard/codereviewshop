@@ -6,7 +6,7 @@ const curDate = ref(new Date().getFullYear())
 
 <template>
   <div class="footer text-center">
-    <span>&copy; 2023 {{ !(2023 === curDate) ? "- " + curDate : "" }} CodeReviewShop</span>
+    <span>&copy; 2023 {{ !(2023 === curDate) ? '- ' + curDate : '' }} CodeReviewShop</span>
   </div>
 </template>
 
