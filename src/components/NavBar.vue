@@ -29,4 +29,27 @@ import { RouterLink } from 'vue-router'
   </div>
 </template>
 
-<style></style>
+<style scoped>
+.nav__bg {
+  background-color: rgba(33, 37, 41, 0.995);
+}
+
+.navbar__icon {
+  font-size: 1.5rem;
+}
+
+
+/* For screen displays */
+@media only screen and (max-width: 464px) {
+
+  html,
+  body {
+    width: auto;
+  }
+
+  /* Remove logo on small screens */
+  .logo-img {
+    display: none;
+  }
+}
+</style>
