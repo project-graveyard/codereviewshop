@@ -1,4 +1,5 @@
 <script setup>
+import { RouterView } from 'vue-router'
 import Navbar from './components/NavBar.vue'
 import Footer from './components/FooterSection.vue'
 </script>
@@ -6,8 +7,10 @@ import Footer from './components/FooterSection.vue'
 <template>
   <header>
     <Navbar />
+    <div class="container">
+      <RouterView />
+    </div>
   </header>
-
   <Footer />
 </template>
 
