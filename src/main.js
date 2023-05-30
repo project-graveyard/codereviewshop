@@ -1,7 +1,4 @@
-import './assets/main.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap-icons/font/bootstrap-icons.min.css'
-import 'bootstrap'
+import './assets/style.css'
 
 import { createApp } from 'vue'
 
