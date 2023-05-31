@@ -7,8 +7,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 const navItems = ref([
   { name: 'Home', href: '/', current: true },
   { name: 'Services', href: '/services', current: false },
-  { name: 'About Us', href: '/about', current: false },
-  // { name: 'Blog', href: 'https://codereviewblog.web.app', current: false },
+  { name: 'About Us', href: '/about', current: false }
 ])
 
 // toggle the state of current page
@@ -33,18 +32,19 @@ function toggleState(item) {
           </DisclosureButton>
         </div>
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-          <div class="flex flex-shrink-0 items-center">
+          <div class="flex sm:flex-grow items-center">
             <img class="block h-8 w-auto lg:hidden" src="/logo.svg" alt="CodeReviewShop" />
             <img class="hidden h-8 w-auto lg:block" src="/logo.svg" alt="CodeReviewShop" />
+            <h3 class="text-white px-2 font-semibold">Code Review Shop</h3>
           </div>
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
               <RouterLink v-for="item in navItems" @click="toggleState(item)" :key="item.name" :to="item.href"
-                :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']"
+                :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-semibold']"
                 :aria-current="item.current ? 'page' : undefined">{{ item.name }}</RouterLink>
-              <!-- <a href="https://codereviewblog.web.app"
-                class="['text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']"
-                target="_blank" rel="noreferrer">Blog</a> -->
+              <a href="https://codereviewblog.web.app" @click="toggleState(null)"
+                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-semibold"
+                aria-current=undefined>Blog</a>
             </div>
           </div>
         </div>
@@ -57,6 +57,9 @@ function toggleState(item) {
           :as="RouterLink" :to="item.href"
           :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block rounded-md px-3 py-2 text-base font-medium']"
           :aria-current="item.current ? 'page' : undefined">{{ item.name }}</DisclosureButton>
+          <a @click="toggleState(null); close(ref)" href="https://codereviewblog.web.app"
+            class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            aria-current=undefined>Blog</a>
       </div>
     </DisclosurePanel>
   </Disclosure>
