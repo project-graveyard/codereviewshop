@@ -12,6 +12,7 @@ const navItems = ref([
 
 // toggle the state of current page
 function toggleState(item) {
+  // set other nav links state to false and set selected nav link state to true
   navItems.value.forEach(element => {
     item != element ? element.current = false : element.current = true
   });
