@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router'
-import { ref } from 'vue';
+import { ref } from 'vue'
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
@@ -10,7 +10,6 @@ const navItems = ref([
   { name: 'About Us', href: '/about', current: false }
 ])
 
-// toggle the state of current page
 function toggleState(item) {
   // set other nav links state to false and set selected nav link state to true
   navItems.value.forEach(element => {
@@ -38,6 +37,8 @@ function toggleState(item) {
             <img class="hidden h-8 w-auto lg:block" src="/logo.svg" alt="CodeReviewShop" />
             <h3 class="text-white px-2 font-semibold">Code Review Shop</h3>
           </div>
+
+          <!-- Default Navbar view -->
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
               <RouterLink v-for="item in navItems" @click="toggleState(item)" :key="item.name" :to="item.href"
@@ -52,18 +53,17 @@ function toggleState(item) {
       </div>
     </div>
 
+    <!-- Mobile menu view -->
     <DisclosurePanel class="sm:hidden" v-slot="{ close }">
       <div class="space-y-1 px-2 pb-3 pt-2">
         <DisclosureButton v-for="item in navItems" @click="toggleState(item); close(ref)" :key="item.name"
           :as="RouterLink" :to="item.href"
           :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block rounded-md px-3 py-2 text-base font-medium']"
           :aria-current="item.current ? 'page' : undefined">{{ item.name }}</DisclosureButton>
-          <a @click="toggleState(null); close(ref)" href="https://codereviewblog.web.app"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
-            aria-current=undefined>Blog</a>
+        <a @click="toggleState(null); close(ref)" href="https://codereviewblog.web.app"
+          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+          aria-current=undefined>Blog</a>
       </div>
     </DisclosurePanel>
   </Disclosure>
 </template>
-
-<style scoped></style>
