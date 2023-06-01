@@ -29,3 +29,6 @@ coverage
 
 # firebase
 .firebase/
+
+# environment variables
+.env
