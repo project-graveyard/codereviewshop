@@ -7,7 +7,7 @@ const curDate = ref(new Date().getFullYear());
 
 <template>
   <footer
-    class="flex bg-orange-100 flex-col w-full h-max justify-center items-center py-4"
+    class="sm:flex inline-block bg-orange-100 flex-col w-full h-max justify-center items-center text-center py-4"
   >
     <div>
       &copy; 2023
@@ -15,16 +15,19 @@ const curDate = ref(new Date().getFullYear());
     </div>
 
     <div
-      class="flex flex-row justify-around items-center p-4 mx-auto my-0 w-full max-w-7xl"
+      class="flex sm:flex-row flex-col justify-around items-center p-4 mx-auto my-0 w-full max-w-7xl"
     >
-      <div class="w-full text-center">
+      <div class="w-full text-center mb-3">
         <p class="text-xl">Contact Us</p>
         <a href="mailto:codereviewshop@gmail.com"
-          ><EnvelopeIcon class="inline h-6 w-6 text-red-600" /> codereviewshop@gmail.com</a
+          ><EnvelopeIcon class="inline h-6 w-6 text-red-600" />
+          codereviewshop@gmail.com</a
         >
       </div>
 
-      <div class="flex flex-row justify-evenly items-center my-0 mx-10 w-full max-w-7xl">
+      <div
+        class="flex flex-row justify-center gap-5 my-0 mx-10 w-full max-w-7xl"
+      >
         <a
           href="https://www.linkedin.com/in/davesaah/"
           target="_blank"
@@ -64,7 +67,6 @@ const curDate = ref(new Date().getFullYear());
             /></svg
         ></a>
       </div>
-
     </div>
   </footer>
 </template>
