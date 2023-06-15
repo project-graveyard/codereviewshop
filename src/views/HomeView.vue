@@ -43,13 +43,13 @@ const langs_and_tools = [
 
 <template>
   <div class="py-8 px-2">
-    <div class="flex flex-row md:gap-x-2.5 items-center justify-around">
-      <div class="md:w-1/2">
+    <div class="flex flex-row md:gap-x-2.5 items-center md:justify-center lg:w-3/4 md:container">
+      <div class="px-4 md:w-1/2 md:pl-1 md:px-0">
         <h1 class="text-5xl">
           Better Software <br />
           is Built Together.
         </h1>
-        <p class="mt-3 mb-5 text-lg">
+        <p class="mt-3 mb-5 text-lg 2xl:w-1/2">
           We help students grow with a solid foundation of the concepts and
           tools needed to be a thriving software engineer.
         </p>
