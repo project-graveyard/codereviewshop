@@ -67,9 +67,9 @@ const langs_and_tools = [
         />
       </div>
     </div>
-    <div class="mt-14 flex items-center justify-around">
-      <h1 class="text-center text-3xl">Languages & Tools</h1>
-      <div class="grid grid-cols-5 gap-3">
+    <div class="mt-6 flex flex-col md:flex-row items-center justify-center md:container md:pr-5">
+      <h1 class="text-center text-3xl mb-3 md:pr-10">Languages & Tools</h1>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:gap-x-8 md:grid-cols-3 xl:grid-cols-4">
         <div v-for="item in langs_and_tools">
           <CardItem
             :title="item.title"
