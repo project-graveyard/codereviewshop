@@ -9,11 +9,9 @@ import ConsentDialog from "./components/ConsentDialog.vue";
   <ConsentDialog />
   <header>
     <Navbar />
-    <div class="container">
-      <RouterView />
-    </div>
   </header>
+  <div class="container">
+    <RouterView />
+  </div>
   <Footer />
 </template>
-
-<style scoped></style>
