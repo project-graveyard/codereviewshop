@@ -42,5 +42,43 @@ const langs_and_tools = [
 </script>
 
 <template>
-  <h1>This is the Homepage</h1>
+  <div class="py-8 px-2">
+    <div class="flex flex-row md:gap-x-2.5 items-center justify-around">
+      <div class="md:w-1/2">
+        <h1 class="text-5xl">
+          Better Software <br />
+          is Built Together.
+        </h1>
+        <p class="mt-3 mb-5 text-lg">
+          We help students grow with a solid foundation of the concepts and
+          tools needed to be a thriving software engineer.
+        </p>
+        <RouterLink
+          to="/about"
+          class="bg-blue-200 hover:bg-blue-500 rounded-3xl text-blue-900 hover:text-white px-4 py-2"
+          >LEARN MORE</RouterLink
+        >
+      </div>
+      <div class="hidden md:inline">
+        <img
+          alt="pair programming"
+          src="/home.jpg"
+          class="object-contain w-[450px] rounded-xl"
+        />
+      </div>
+    </div>
+    <div class="mt-14 flex items-center justify-around">
+      <h1 class="text-center text-3xl">Languages & Tools</h1>
+      <div class="grid grid-cols-5 gap-3">
+        <div v-for="item in langs_and_tools">
+          <CardItem
+            :title="item.title"
+            :about="item.about"
+            :color="item.color"
+            :icon="item.icon"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
