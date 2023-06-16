@@ -5,6 +5,8 @@ const name = ref("");
 const email = ref("");
 const msg = ref("");
 const clicked = ref(false);
+const checked = ref(false);
+const db = ref(feedbackDB);
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
