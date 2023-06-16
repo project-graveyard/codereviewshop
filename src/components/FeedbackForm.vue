@@ -1,5 +1,7 @@
 <script setup>
 import { ref } from "vue";
+import { serverTimestamp, addDoc } from "firebase/firestore";
+import { feedbackDB, suggestionsDB } from "../firebase";
 
 const name = ref("");
 const email = ref("");
@@ -20,15 +22,19 @@ async function sendMsg(e) {
   // prevent default behaviour of form submission
   e.preventDefault();
 
-  console.log("name: ", name.value);
-  console.log("email: ", email.value);
-  console.log("msg: ", msg.value);
-  console.log("clicked: ", clicked.value);
-
-  // clear the input fields
-  name.value = "";
-  email.value = "";
-  msg.value = "";
+  // write to database
+  addDoc(db.value, {
+    name: name.value,
+    email: email.value,
+    msg: msg.value,
+    timestamp: serverTimestamp(),
+  }).then(() => {
+    // clear all input fields
+    name.value = "";
+    email.value = "";
+    msg.value = "";
+    checked.value = false;
+    db.value = feedbackDB;
 
   // prevent default behaviour of form submission
   e.preventDefault();
