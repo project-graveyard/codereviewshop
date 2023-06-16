@@ -41,7 +41,7 @@ async function sendMsg(e) {
   });
 
   // disable toast after 5 secs
-  await sleep(5000);
+  await sleep(8000);
   clicked.value = !clicked.value;
 }
 </script>
