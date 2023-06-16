@@ -23,6 +23,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the font-awesome-icon library */
 library.add(faJava);
@@ -35,6 +36,7 @@ library.add(faGithub);
 library.add(faXmark);
 library.add(faBars);
 library.add(faCircleCheck);
+library.add(faEnvelope);
 
 const app = createApp(App);
 
