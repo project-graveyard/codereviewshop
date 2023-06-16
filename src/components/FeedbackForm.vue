@@ -36,8 +36,9 @@ async function sendMsg(e) {
     checked.value = false;
     db.value = feedbackDB;
 
-  // prevent default behaviour of form submission
-  e.preventDefault();
+    // show success toast
+    clicked.value = !clicked.value;
+  });
 
   // disable toast after 5 secs
   await sleep(5000);
