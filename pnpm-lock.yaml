@@ -31,9 +31,6 @@ devDependencies:
   '@headlessui/vue':
     specifier: ^1.7.13
     version: 1.7.13(vue@3.3.4)
-  '@heroicons/vue':
-    specifier: ^2.0.18
-    version: 2.0.18(vue@3.3.4)
   '@vitejs/plugin-vue':
     specifier: ^4.2.3
     version: 4.2.3(vite@4.3.9)(vue@3.3.4)
@@ -818,14 +815,6 @@ packages:
     engines: {node: '>=10'}
     peerDependencies:
       vue: ^3.2.0
-    dependencies:
-      vue: 3.3.4
-    dev: true
-
-  /@heroicons/vue@2.0.18(vue@3.3.4):
-    resolution: {integrity: sha512-BcTC9nq2TkwNSfQuqo96J7ehx4etezypc2YeTq7KsXWxrcrerhkgjLrxGRBnStN0wrXo0Gv4BInybqz5uBG6Cw==}
-    peerDependencies:
-      vue: '>= 3'
     dependencies:
       vue: 3.3.4
     dev: true
