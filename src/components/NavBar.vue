@@ -2,7 +2,6 @@
 import { RouterLink } from "vue-router";
 import { ref } from "vue";
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
-import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 const navItems = ref([
   { name: "Home", href: "/", current: true },
@@ -28,8 +27,20 @@ function toggleState(item) {
             class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
           >
             <div class="sr-only">Open main menu</div>
-            <Bars3Icon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
-            <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" />
+            <!-- <Bars3Icon v-if="!open" class="block h-6 w-6" aria-hidden="true" /> -->
+            <font-awesome-icon
+              v-if="!open"
+              :icon="['fas', 'bars']"
+              class="block h-6 w-6"
+              aria-hidden="true"
+            />
+            <!-- <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" /> -->
+            <font-awesome-icon
+              v-else
+              :icon="['fas', 'xmark']"
+              aria-hidden="true"
+              class="block h-6 w-6"
+            />
           </DisclosureButton>
         </div>
         <div
