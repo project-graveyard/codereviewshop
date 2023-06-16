@@ -27,6 +27,8 @@ export const analytics = {
   },
 };
 
-export const analytics = () => {
-  getAnalytics(firebaseApp)
+export const firestore = {
+  install(app, options) {
+    getFirestore(firebaseInit);
+  },
 };
