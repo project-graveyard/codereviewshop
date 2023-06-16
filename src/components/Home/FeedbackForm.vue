@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import { serverTimestamp, addDoc } from "firebase/firestore";
-import { feedbackDB, suggestionsDB } from "../firebase";
+import { feedbackDB, suggestionsDB } from "../../firebase";
 
 const name = ref("");
 const email = ref("");
