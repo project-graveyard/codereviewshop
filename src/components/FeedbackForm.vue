@@ -36,8 +36,8 @@ async function sendMsg(e) {
   <div
     class="mt-6 flex flex-col items-center justify-center md:container md:pr-5"
   >
-    <div>
-      <h1 class="text-3xl mb-3">Write to us</h1>
+    <div class="px-4">
+      <h1 class="text-3xl mb-3 text-center">Write to us</h1>
       <p class="mb-3 text-lg">
         Do you have any questions or suggestions for CodeReviewShop?<br />
         Would you like to share how CodeReviewShop has impacted you?
@@ -46,7 +46,9 @@ async function sendMsg(e) {
     <!-- form -->
     <form @submit="sendMsg" method="post">
       <div>
-        <div class="flex flex-row gap-x-5 items-center justify-center">
+        <div
+          class="flex md:flex-row flex-col gap-x-5 items-center justify-center"
+        >
           <div class="flex flex-col">
             <input
               type="text"
@@ -58,17 +60,25 @@ async function sendMsg(e) {
             <input
               type="email"
               placeholder="Enter your email"
-              class="p-2 rounded-md border-2 border-gray-400 accent-gray-500 shadow-md"
+              class="mb-3 p-2 rounded-md border-2 border-gray-400 accent-gray-500 shadow-md"
               v-model.lazy="email"
               required
             />
+            <div class="mb-3">
+              <input
+                type="checkbox"
+                name="isSuggestion"
+                class="mr-1"
+                v-model="checked"
+                @click="togggleDB"
+              />
+              <label for="isSuggestion">Is your message a suggestion?</label>
+            </div>
           </div>
           <div>
             <textarea
               placeholder="Write your feedback/suggestion"
-              rows="5"
-              cols="40"
-              class="rounded-md p-2 border-2 border-gray-400 accent-gray-500 shadow-md"
+              class="rounded-md h-40 w-60 md:w-96 p-2 border-2 border-gray-400 accent-gray-500 shadow-md"
               v-model.lazy="msg"
               required
             />
@@ -83,7 +93,7 @@ async function sendMsg(e) {
         </div>
       </div>
     </form>
-    <!-- test for toast -->
+    <!-- success toast -->
     <div
       v-if="clicked"
       class="fixed right-8 bottom-8 px-5 py-3 border-r-8 border-green-500 bg-green-100 drop-shadow-lg"
