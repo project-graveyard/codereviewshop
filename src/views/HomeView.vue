@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink } from "vue-router";
-import CardItem from "../components/CardItem.vue";
-import FeedbackForm from "../components/FeedbackForm.vue";
+import CardItem from "../components/Home/CardItem.vue";
+import FeedbackForm from "../components/Home/FeedbackForm.vue";
 
 const langs_and_tools = [
   {
