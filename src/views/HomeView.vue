@@ -43,7 +43,10 @@ const langs_and_tools = [
 
 <template>
   <div class="py-8 px-2">
-    <div class="flex flex-row md:gap-x-2.5 items-center md:justify-center lg:w-3/4 md:container">
+    <!-- Welcome msg section -->
+    <div
+      class="flex flex-row md:gap-x-2.5 items-center md:justify-center lg:w-3/4 md:container"
+    >
       <div class="px-4 md:w-1/2 md:pl-1 md:px-0">
         <h1 class="text-5xl">
           Better Software <br />
@@ -55,7 +58,7 @@ const langs_and_tools = [
         </p>
         <RouterLink
           to="/about"
-          class="bg-blue-200 hover:bg-blue-500 rounded-3xl text-blue-900 hover:text-white px-4 py-2"
+          class="bg-blue-200 hover:bg-blue-500 rounded-3xl hover:text-white px-4 py-2"
           >LEARN MORE</RouterLink
         >
       </div>
@@ -67,9 +70,14 @@ const langs_and_tools = [
         />
       </div>
     </div>
-    <div class="mt-6 flex flex-col md:flex-row items-center justify-center md:container md:pr-5">
+    <!-- Add languages & tools section -->
+    <div
+      class="mt-6 flex flex-col md:flex-row items-center justify-center md:container md:pr-5"
+    >
       <h1 class="text-center text-3xl mb-3 md:pr-10">Languages & Tools</h1>
-      <div class="grid grid-cols-2 sm:grid-cols-3 md:gap-x-8 md:grid-cols-3 xl:grid-cols-4">
+      <div
+        class="grid grid-cols-2 sm:grid-cols-3 md:gap-x-8 md:grid-cols-3 xl:grid-cols-4"
+      >
         <div v-for="item in langs_and_tools">
           <CardItem
             :title="item.title"
