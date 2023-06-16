@@ -12,6 +12,10 @@ function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
+function togggleDB() {
+  db.value = checked.value ? feedbackDB : suggestionsDB;
+}
+
 async function sendMsg(e) {
   // prevent default behaviour of form submission
   e.preventDefault();
