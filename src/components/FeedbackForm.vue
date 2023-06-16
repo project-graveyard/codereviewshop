@@ -26,8 +26,8 @@ async function sendMsg(e) {
   // prevent default behaviour of form submission
   e.preventDefault();
 
-  // disable toast after 9 secs
-  await sleep(9000);
+  // disable toast after 5 secs
+  await sleep(5000);
   clicked.value = !clicked.value;
 }
 </script>
