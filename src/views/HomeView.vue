@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink } from "vue-router";
 import CardItem from "../components/CardItem.vue";
+import FeedbackForm from "../components/FeedbackForm.vue";
 
 const langs_and_tools = [
   {
@@ -88,5 +89,7 @@ const langs_and_tools = [
         </div>
       </div>
     </div>
+    <!-- insert feedback form -->
+    <FeedbackForm />
   </div>
 </template>
