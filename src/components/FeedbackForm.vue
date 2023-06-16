@@ -11,7 +11,8 @@ function sleep(ms) {
 }
 
 async function sendMsg(e) {
-  clicked.value = !clicked.value;
+  // prevent default behaviour of form submission
+  e.preventDefault();
 
   console.log("name: ", name.value);
   console.log("email: ", email.value);
