@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from "vue";
-import { EnvelopeIcon } from "@heroicons/vue/24/solid";
 
 const curDate = ref(new Date().getFullYear());
 </script>
@@ -19,8 +18,11 @@ const curDate = ref(new Date().getFullYear());
     >
       <div class="w-full text-center mb-3">
         <p class="text-xl">Contact Us</p>
-        <a href="mailto:codereviewshop@gmail.com"
-          ><EnvelopeIcon class="inline h-6 w-6 text-red-600" />
+        <a href="mailto:codereviewshop@gmail.com">
+          <font-awesome-icon
+            :icon="['fas', 'envelope']"
+            class="w-4 h-4 text-red-600"
+          />
           codereviewshop@gmail.com</a
         >
       </div>
