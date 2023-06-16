@@ -20,6 +20,9 @@ import { faCss3Alt } from "@fortawesome/free-brands-svg-icons";
 import { faTerminal } from "@fortawesome/free-solid-svg-icons";
 import { faCodeBranch } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 
 /* add icons to the font-awesome-icon library */
 library.add(faJava);
@@ -29,6 +32,9 @@ library.add(faCss3Alt);
 library.add(faTerminal);
 library.add(faCodeBranch);
 library.add(faGithub);
+library.add(faXmark);
+library.add(faBars);
+library.add(faCircleCheck);
 
 const app = createApp(App);
 
