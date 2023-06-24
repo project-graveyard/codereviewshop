@@ -26,6 +26,12 @@ import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faSeedling } from "@fortawesome/free-solid-svg-icons";
+import { faPeopleGroup } from "@fortawesome/free-solid-svg-icons";
+import { faHandshakeSimple } from "@fortawesome/free-solid-svg-icons";
+import { faHandHoldingHeart } from "@fortawesome/free-solid-svg-icons";
+import { faPersonHiking } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the font-awesome-icon library */
 library.add(faJava);
@@ -41,6 +47,12 @@ library.add(faCircleCheck);
 library.add(faEnvelope);
 library.add(faLinkedin);
 library.add(faTwitter);
+library.add(faHeart);
+library.add(faSeedling);
+library.add(faPeopleGroup);
+library.add(faHandshakeSimple);
+library.add(faHandHoldingHeart);
+library.add(faPersonHiking);
 
 const app = createApp(App);
 
