@@ -1,25 +1,38 @@
-<script setup></script>
-
-<!--
-  # Outline
-
-  1. Establish a mission statement.
-    state your goal in the industry up front.
-  2. Outline your company story.
-    Every business has a story to tell. Even if you’re running a startup with a brief history, you’ll want to share your company’s progress. Talk about how you got to where you are today on your about page.
-    Pro tip: Isolate the milestones before your company’s founding, and use them to give readers some backstory on your current venture.
-  3. Reveal how you’ve evolved.
-    There’s no shame in admitting how your business strategy — or even your way of thinking — has changed since you began. In fact, these evolutions can improve the story you tell to website visitors.
-    Talk about where you started, how you’ve grown, and the ideals that have helped your organization mature. Use these moments to show people that you're always ready to change and adapt to the needs of your industry.
-  4. State your “aha!” moment.
-    What was a challenge you faced while developing your company? How did this challenge or discovery shape what you are today?
-  5. Explain whom you serve.
-    identify and mention your core customer.
-  6. Explain what you’re offering them.
-    Start by explaining what problem your offering solves. Then, link to a page with more information.
-  7. Cite examples of whom you’ve served.
-  8. Describe your values.
- -->
+<script setup>
+const values = [
+  { name: "Patience", desc: "", icon: ["fas", "heart"], color: "text-red-600" },
+  {
+    name: "Curiosity",
+    desc: "",
+    icon: ["fas", "person-hiking"],
+    color: "text-amber-600",
+  },
+  {
+    name: "Growth mindset",
+    desc: "",
+    icon: ["fas", "seedling"],
+    color: "text-green-600",
+  },
+  {
+    name: "Community",
+    desc: "",
+    icon: ["fas", "people-group"],
+    color: "text-black",
+  },
+  {
+    name: "Respect",
+    desc: "",
+    icon: ["fas", "handshake-simple"],
+    color: "text-slate-600",
+  },
+  {
+    name: "Teachableness",
+    desc: "",
+    icon: ["fas", "hand-holding-heart"],
+    color: "text-indigo-600",
+  },
+];
+</script>
 
 <template>
   <div
