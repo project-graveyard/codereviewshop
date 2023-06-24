@@ -1,10 +1,10 @@
 import "./assets/style.css";
 import "./icons";
 
-import { createApp } from "vue";
-
 import App from "./App.vue";
 import router from "./router";
+
+import { createApp } from "vue";
 import { firebaseApp, analytics, firestore } from "./firebase";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
