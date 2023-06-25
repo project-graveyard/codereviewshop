@@ -25,7 +25,7 @@
       <li>I want to start a project. Can I get supervision?</li>
     </ul>
 
-    <h2 class="text-center my-3 text-4xl">Timeline</h2>
+    <h2 class="text-center my-3 text-4xl font-mono">Timeline</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
       <div>
         <p
@@ -44,7 +44,7 @@
           <div class="mt-auto">
             <a href="#"
               ><p
-                class="mx-4 py-3 bg-blue-600 text-center rounded-md font-semibold text-white"
+                class="mx-20 py-3 bg-blue-600 text-center rounded-md font-semibold text-white"
               >
                 Book
               </p></a
