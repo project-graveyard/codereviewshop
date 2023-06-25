@@ -28,60 +28,73 @@
     <h2 class="text-center my-3 text-4xl">Timeline</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
       <div>
-        <p class="text-center text-white text-xl bg-blue-600 py-2.5 rounded">
+        <p
+          class="text-center text-xl bg-blue-600 py-2.5 text-white rounded-t-lg"
+        >
           30-minute session
         </p>
-        <ul class="list-item list-disc ml-7 my-2 leading-9 text-xl h-60">
-          <li>Project supervision check-in.</li>
-          <li>
-            General consulting. E.g. Guide on handling challenging assignments.
-          </li>
-        </ul>
-        <div class="mt-auto">
-          <a href="#"
-            ><p
-              class="py-3 bg-blue-600 text-center font-semibold rounded-md text-white"
+        <div class="border-x border-b rounded-b-lg px-2 py-2 border-blue-500">
+          <ul class="list-item list-disc leading-9 text-xl h-60 ml-7">
+            <li>Project supervision check-in.</li>
+            <li>
+              General consulting. E.g. Guide on handling challenging
+              assignments.
+            </li>
+          </ul>
+          <div class="mt-auto">
+            <a href="#"
+              ><p
+                class="mx-4 py-3 bg-blue-600 text-center rounded-md font-semibold text-white"
+              >
+                Book
+              </p></a
             >
-              Book
-            </p></a
-          >
+          </div>
         </div>
       </div>
       <div>
-        <p class="text-center text-xl text-white bg-blue-600 py-2.5 rounded">
+        <p
+          class="text-center text-xl bg-blue-600 py-2.5 text-white rounded-t-lg"
+        >
           45-minute session
         </p>
-        <ul class="list-item list-disc ml-7 my-2 leading-9 text-xl h-60">
-          <li>Practice problem solving.</li>
-          <li>Learn more about tools you already use.</li>
-          <li>Setup linux for software development.</li>
-        </ul>
-        <div class="mt-auto">
-          <a href="#"
-            ><p
-              class="py-3 bg-blue-600 text-center rounded-md text-white font-semibold"
+        <div class="border-x border-b rounded-b-lg px-2 py-2 border-blue-500">
+          <ul class="list-item list-disc leading-9 text-xl h-60 ml-7">
+            <li>Practice problem solving.</li>
+            <li>Learn more about tools you already use.</li>
+            <li>Setup linux for software development.</li>
+          </ul>
+          <div class="mt-auto">
+            <a href="#"
+              ><p
+                class="mx-4 py-3 bg-blue-600 text-center rounded-md font-semibold text-white"
+              >
+                Book
+              </p></a
             >
-              Book
-            </p></a
-          >
+          </div>
         </div>
       </div>
       <div>
-        <p class="text-center text-xl bg-blue-600 py-2.5 rounded text-white">
+        <p
+          class="text-center text-xl bg-blue-600 py-2.5 text-white rounded-t-lg"
+        >
           1 hour session
         </p>
-        <ul class="list-item list-disc ml-7 my-2 leading-9 text-xl h-60">
-          <li>I am new to programming.</li>
-          <li>I want to learn a new tool.</li>
-        </ul>
-        <div class="mt-auto">
-          <a href="#"
-            ><p
-              class="py-3 bg-blue-600 text-center rounded-md font-semibold text-white"
+        <div class="border-x border-b rounded-b-lg px-2 py-2 border-blue-500">
+          <ul class="list-item list-disc leading-9 text-xl h-60 ml-7">
+            <li>I am new to programming.</li>
+            <li>I want to learn a new tool.</li>
+          </ul>
+          <div class="mt-auto">
+            <a href="#"
+              ><p
+                class="mx-4 py-3 bg-blue-600 text-center rounded-md font-semibold text-white"
+              >
+                Book
+              </p></a
             >
-              Book
-            </p></a
-          >
+          </div>
         </div>
       </div>
     </div>
