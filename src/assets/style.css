@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+}
+
+@layer base {
+  html,
+  body {
+    font-family: Proxima Nova, system-ui, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 100%;
+  }
+}
+
+/* remove scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
