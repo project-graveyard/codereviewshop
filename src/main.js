@@ -14,6 +14,8 @@ app.use(firebaseApp);
 app.use(analytics);
 app.use(firestore);
 app.use(router);
+app.use("/robots.txt");
+app.use("/sitemap.xml");
 app.component("font-awesome-icon", FontAwesomeIcon);
 
 app.mount("#app");
