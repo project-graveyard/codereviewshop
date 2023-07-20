@@ -1,21 +1,29 @@
 <script setup>
 import { ref } from "vue";
-import { serverTimestamp, addDoc } from "firebase/firestore";
-import { feedbackDB, suggestionsDB } from "../../firebase";
+import {
+  serverTimestamp,
+  addDoc,
+  getFirestore,
+  collection,
+} from "firebase/firestore";
+
+const db = getFirestore();
+const feedbackDB = collection(db, "feedback");
+const suggestionsDB = collection(db, "suggestion");
 
 const name = ref("");
 const email = ref("");
 const msg = ref("");
 const clicked = ref(false);
 const checked = ref(false);
-const db = ref(feedbackDB);
+const curDB = ref(feedbackDB);
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
 function togggleDB() {
-  db.value = checked.value ? feedbackDB : suggestionsDB;
+  curDB.value = checked.value ? feedbackDB : suggestionsDB;
 }
 
 async function sendMsg(e) {
@@ -23,7 +31,7 @@ async function sendMsg(e) {
   e.preventDefault();
 
   // write to database
-  addDoc(db.value, {
+  addDoc(curDB.value, {
     name: name.value,
     email: email.value,
     msg: msg.value,
@@ -34,7 +42,7 @@ async function sendMsg(e) {
     email.value = "";
     msg.value = "";
     checked.value = false;
-    db.value = feedbackDB;
+    curDB.value = feedbackDB;
 
     // show success toast
     clicked.value = !clicked.value;
