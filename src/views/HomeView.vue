@@ -60,6 +60,7 @@ const langs_and_tools = [
         <RouterLink
           to="/about"
           class="bg-blue-200 hover:bg-blue-500 rounded-3xl hover:text-white px-4 py-2"
+          aria-label="about"
           >LEARN MORE</RouterLink
         >
       </div>
