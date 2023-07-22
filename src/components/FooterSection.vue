@@ -31,7 +31,7 @@ const curDate = ref(new Date().getFullYear());
         class="flex flex-row justify-center gap-5 my-0 mx-10 w-full max-w-7xl"
       >
         <a
-          href="https://www.linkedin.com/in/davesaah/"
+          href="https://www.linkedin.com/company/codereviewshop/"
           target="_blank"
           rel="noreferrer"
           ><font-awesome-icon
@@ -39,13 +39,11 @@ const curDate = ref(new Date().getFullYear());
             class="text-blue-600 text-xl"
           />
         </a>
-        <a href="https://github.com/DaveSaah" target="_blank" rel="noreferrer"
+        <a
+          href="https://github.com/CodeReviewShop"
+          target="_blank"
+          rel="noreferrer"
           ><font-awesome-icon :icon="['fab', 'github']" class="text-xl"
-        /></a>
-        <a href="https://twitter.com/dave_saah" target="_blank" rel="noreferrer"
-          ><font-awesome-icon
-            :icon="['fab', 'twitter']"
-            class="text-sky-500 text-xl"
         /></a>
       </div>
     </div>
