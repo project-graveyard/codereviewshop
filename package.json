@@ -11,21 +11,21 @@
   },
   "dependencies": {
     "vue": "^3.3.4",
-    "vue-router": "^4.2.1"
+    "vue-router": "^4.2.4"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.0",
-    "@fortawesome/free-brands-svg-icons": "^6.4.0",
-    "@fortawesome/free-regular-svg-icons": "^6.4.0",
-    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/vue-fontawesome": "^3.0.3",
-    "@headlessui/vue": "^1.7.13",
-    "@vitejs/plugin-vue": "^4.2.3",
-    "autoprefixer": "^10.4.14",
-    "firebase": "^9.22.1",
-    "postcss": "^8.4.24",
-    "sass": "^1.63.4",
-    "tailwindcss": "^3.3.2",
-    "vite": "^4.3.9"
+    "@headlessui/vue": "^1.7.16",
+    "@vitejs/plugin-vue": "^4.3.2",
+    "autoprefixer": "^10.4.15",
+    "firebase": "^9.23.0",
+    "postcss": "^8.4.28",
+    "sass": "^1.66.1",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9"
   }
 }
