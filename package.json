@@ -20,7 +20,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "@headlessui/vue": "^1.7.16",
-    "@vitejs/plugin-vue": "^4.3.2",
+    "@vitejs/plugin-vue": "^4.3.3",
     "autoprefixer": "^10.4.15",
     "firebase": "^9.23.0",
     "postcss": "^8.4.28",
