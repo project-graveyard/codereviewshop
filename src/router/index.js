@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
+import HomeView from "../views/Home/HomeView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,7 +20,7 @@ const router = createRouter({
     {
       path: "/services",
       name: "Services",
-      component: () => import("../views/ServiceView.vue"),
+      component: () => import("../views/Service/ServiceView.vue"),
     },
     {
       path: "/:catchAll(.*)*",
