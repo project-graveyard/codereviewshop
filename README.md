@@ -1,3 +1,3 @@
 # codereviewshop
 
-Code Review Shop is a web app that allows you to schedule a session to have your code reviewed and feedback provided.
+Code Review Shop focuses on skill workshops to teach students about software development tools.
