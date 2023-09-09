@@ -25,17 +25,15 @@ function toggleState(item) {
           <DisclosureButton
             class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
             <div class="sr-only">Open main menu</div>
-            <!-- <Bars3Icon v-if="!open" class="block h-6 w-6" aria-hidden="true" /> -->
             <font-awesome-icon v-if="!open" :icon="['fas', 'bars']" class="block h-6 w-6" aria-hidden="true" />
-            <!-- <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" /> -->
             <font-awesome-icon v-else :icon="['fas', 'xmark']" aria-hidden="true" class="block h-6 w-6" />
           </DisclosureButton>
         </div>
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex sm:flex-grow items-center">
-            <img class="block h-8 w-auto lg:hidden" src="/logo.svg" alt="CodeReviewShop" />
-            <img class="hidden h-8 w-auto lg:block" src="/logo.svg" alt="CodeReviewShop" />
-            <h3 class="text-white px-2 font-semibold">Code Review Shop</h3>
+            <RouterLink to="/">
+              <h3 class="text-white px-2 text-lg font-bold">Code Review Shop</h3>
+            </RouterLink>
           </div>
 
           <!-- Default Navbar view -->
