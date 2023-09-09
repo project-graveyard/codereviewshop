@@ -12,10 +12,12 @@ const router = createRouter({
     {
       path: "/about",
       name: "About",
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import("../views/AboutView.vue"),
+    },
+    {
+      path: "/timeline",
+      name: "Timeline",
+      component: () => import("../views/Timeline/Timeline.vue"),
     },
     {
       path: "/:catchAll(.*)*",
