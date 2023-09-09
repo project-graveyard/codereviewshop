@@ -18,11 +18,6 @@ const router = createRouter({
       component: () => import("../views/AboutView.vue"),
     },
     {
-      path: "/services",
-      name: "Services",
-      component: () => import("../views/Service/ServiceView.vue"),
-    },
-    {
       path: "/:catchAll(.*)*",
       name: "PageNotFound",
       component: () => import("../views/PageNotFoundView.vue"),
