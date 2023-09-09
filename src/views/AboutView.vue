@@ -41,8 +41,7 @@ const values = [
 
 <template>
   <div
-    class="h-64 w-full text-center flex flex-col text-white justify-center items-center bg-[url(/aboutImg.jpg)] bg-cover bg-center bg-no-repeat"
-  >
+    class="h-64 w-full text-center flex flex-col text-white justify-center items-center bg-[url(/aboutImg.jpg)] bg-cover bg-center bg-no-repeat">
     <h1 class="text-3xl sm:text-5xl font-semibold p-3">
       The CodeReviewShop Story
     </h1>
@@ -50,7 +49,7 @@ const values = [
   </div>
   <div class="pt-6 pb-8 px-4 container lg:w-3/4 2xl:w-1/2">
     <div>
-      <h1 class="text-4xl font-mono py-2">Present Day</h1>
+      <h1 class="text-4xl font-mono py-2">Initial State</h1>
       <p class="text-lg">
         CodeReviewShop was originally started to handle the increasing requests
         to assist my colleagues and friends in programing related courses.
@@ -58,6 +57,13 @@ const values = [
         other students. We do this by guiding the thought process of students to
         identify and solve any issues they may face in their software
         engineering journey.
+      </p>
+    </div>
+    <div>
+      <h1 class="text-4xl font-mono py-2">Present Day</h1>
+      <p class="text-lg">
+        CodeReviewShop focuses on developing skill workshops to teach students about software development tools and
+        traditional problem solving.
       </p>
     </div>
     <div>
@@ -70,15 +76,10 @@ const values = [
     </div>
     <div>
       <h1 class="text-4xl font-mono py-2">Values</h1>
-      <div
-        class="pt-3 grid grid-cols-1 mx-4 sm:grid-cols-2 gap-5 justify-start items-start"
-      >
+      <div class="pt-3 grid grid-cols-1 mx-4 sm:grid-cols-2 gap-5 justify-start items-start">
         <div v-for="item in values">
           <div class="flex text-2xl items-center">
-            <font-awesome-icon
-              :icon="item.icon"
-              :class="['mr-2 ', item.color]"
-            />
+            <font-awesome-icon :icon="item.icon" :class="['mr-2 ', item.color]" />
             <p>{{ item.name }}</p>
           </div>
           <p class="text-lg">{{ item.desc }}</p>
