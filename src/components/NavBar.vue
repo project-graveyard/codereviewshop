@@ -47,7 +47,7 @@ function toggleState(item) {
                     : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                   'rounded-md px-3 py-2 text-sm font-semibold',
                 ]" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</RouterLink>
-              <a href="https://codereviewblog.web.app" target="_blank" aria-label="blog" @click="toggleState(null)"
+              <a href="https://davesaah.hashnode.dev" target="_blank" aria-label="blog" @click="toggleState(null)"
                 class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-semibold"
                 aria-current="undefined">Blog</a>
             </div>
@@ -71,7 +71,7 @@ function toggleState(item) {
         <a @click="
           toggleState(null);
         close(ref);
-        " target="_blank" href="https://codereviewblog.web.app" aria-label="blog"
+        " target="_blank" href="https://davesaah.hashnode.dev" aria-label="blog"
           class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
           aria-current="undefined">Blog</a>
       </div>
