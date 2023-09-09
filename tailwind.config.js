@@ -7,6 +7,8 @@ export default {
     extend: {
       fontFamily: {
         sans: [...defaultTheme.fontFamily.sans],
+        inter: ['Inter', 'sans-serif'],
+        caveat: ['Caveat', 'cursive'],
       },
     },
     container: {
