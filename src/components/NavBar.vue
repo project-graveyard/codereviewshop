@@ -5,6 +5,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
 
 const navItems = ref([
   { name: "Home", href: "/", current: true },
+  { name: "Timeline", href: "/timeline", current: false },
   { name: "About Us", href: "/about", current: false },
 ]);
 
