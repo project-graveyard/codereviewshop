@@ -17,13 +17,12 @@ const events = [
 
 <template>
   <div class="text-center">
-    <div class="text-3xl my-6">Upcoming Workshops</div>
+    <div class="text-3xl my-6">Workshops</div>
     <div class="text-gray-600 pb-6">No scheduled workshops yet...</div>
 
     <!-- div v-for="event in events">
       <EventCard :title="event.title" :month="event.month" :day="event.day" :img="event.img" :info="event.info"
         :time="event.time" />
     </div-->
-
   </div>
 </template>
