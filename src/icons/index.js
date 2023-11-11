@@ -20,6 +20,9 @@ import { faPeopleGroup } from "@fortawesome/free-solid-svg-icons";
 import { faHandshakeSimple } from "@fortawesome/free-solid-svg-icons";
 import { faHandHoldingHeart } from "@fortawesome/free-solid-svg-icons";
 import { faPersonHiking } from "@fortawesome/free-solid-svg-icons";
+import { faLinux } from "@fortawesome/free-brands-svg-icons";
+import { faGolang } from "@fortawesome/free-brands-svg-icons";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the font-awesome-icon library */
 library.add(faJava);
@@ -40,3 +43,6 @@ library.add(faPeopleGroup);
 library.add(faHandshakeSimple);
 library.add(faHandHoldingHeart);
 library.add(faPersonHiking);
+library.add(faLinux);
+library.add(faGolang);
+library.add(faDatabase);
