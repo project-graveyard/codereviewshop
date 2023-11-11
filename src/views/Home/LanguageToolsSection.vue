@@ -23,6 +23,16 @@ const langs_and_tools = [
     icon: ["fab", "css3-alt"],
   },
   {
+    title: "Go",
+    color: "text-green-600",
+    icon: ["fab", "golang"],
+  },
+  {
+    title: "SQL",
+    color: "text-sky-600",
+    icon: ["fas", "database"],
+  },
+  {
     title: "Terminal",
     color: "text-black-600",
     icon: ["fas", "terminal"],
@@ -36,6 +46,11 @@ const langs_and_tools = [
     title: "Github",
     color: "text-black-600",
     icon: ["fab", "github"],
+  },
+  {
+    title: "Linux",
+    color: "text-black-600",
+    icon: ["fab", "linux"],
   },
 ];
 </script>
