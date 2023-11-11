@@ -17,7 +17,7 @@ const router = createRouter({
     {
       path: "/services",
       name: "Services",
-      component: () => import("../views/Service/ServiceView.vue"),
+      component: () => import("../views/ServiceView.vue"),
     },
     {
       path: "/timeline",
