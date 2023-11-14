@@ -1,4 +1,18 @@
 <script setup>
+/*
+ * Bundles 
+ * Walkthroough Session 
+ *    Navigating Github(Pushing, pulling, commiting, how to keep up a good streak for code interview etc)
+ *    Assignment Review
+ *    Code debugging
+ *    Technical Requirement analysis for software project
+ *
+ *Semester-wide Tutoring Session
+      Git(Version control)
+      foundational programming concepts(Understanding Data structures, Algorithms)
+*     Software Development Life Cycle(Key to every project success)
+*     Become a command line pro
+ */
 const service_list = [
   {
     heading: "Code Review Session",
@@ -60,7 +74,8 @@ const service_list = [
 
     <div class="text-lg text-center my-8 mx-3">
       <p>
-        If you like to support our mission, kindly reach out to us via
+        If you like to have a custom tutoring session, kindly reach out to us
+        via
         <a href="mailto:codereviewshop@gmail.com" class="text-blue-900">email</a
         >.
       </p>
